@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(245, 188, 188) ;
+}
+
+.grid{
+    border: 1px solid ;
+    height: 240px;
+    width : 280px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(62, 150, 244);
+}
+.grid div{
+    height: 40px;
+    width : 40px;
+    border-radius: 30px;
+    background-color: rgb(255,255,255);
+    border: 5px;
+    
+}
+div .taken{
+    background-color: 	rgb(245, 188, 188);
+}
+h1{
+    color:rgb(0, 54, 141);
+}

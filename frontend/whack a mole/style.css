@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0px;
+}
+.grid{
+    width : 606px;
+    height : 606px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.square{
+    width : 200px;
+    height : 200px;
+    border : solid navy 1px;
+}
+.mole{
+    background-color: aquamarine;
+}
